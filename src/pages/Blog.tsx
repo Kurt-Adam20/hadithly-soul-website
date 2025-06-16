@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -118,16 +117,20 @@ const Blog = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {blogPosts.map((post) => (
               <Card key={post.id} className="bg-[#1A2332]/50 border-[#F4ECD8]/10 hover:bg-[#1A2332]/70 transition-all duration-300 hover:scale-105 hover:border-[#F4ECD8]/20 backdrop-blur-sm">
-                <div className="aspect-video bg-[#F4ECD8]/5 rounded-t-lg"></div>
+                <Link to={`/blog/${post.id}`}>
+                  <div className="aspect-video bg-[#F4ECD8]/5 rounded-t-lg"></div>
+                </Link>
                 <CardHeader className="pb-4">
                   <div className="flex items-center gap-2 mb-3">
                     <Badge className="bg-[#F4ECD8]/10 text-[#F4ECD8] border-[#F4ECD8]/20 text-xs">
                       {post.category}
                     </Badge>
                   </div>
-                  <CardTitle className="text-xl font-semibold text-white leading-tight hover:text-[#F4ECD8] transition-colors">
-                    {post.title}
-                  </CardTitle>
+                  <Link to={`/blog/${post.id}`}>
+                    <CardTitle className="text-xl font-semibold text-white leading-tight hover:text-[#F4ECD8] transition-colors cursor-pointer">
+                      {post.title}
+                    </CardTitle>
+                  </Link>
                 </CardHeader>
                 <CardContent className="pt-0">
                   <p className="text-gray-300 mb-6 leading-relaxed text-sm">
@@ -153,10 +156,12 @@ const Blog = () => {
                       <span>{new Date(post.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
                     </div>
                     
-                    <Button className="bg-[#F4ECD8]/10 text-[#F4ECD8] hover:bg-[#F4ECD8]/20 border border-[#F4ECD8]/20 hover:border-[#F4ECD8]/40 text-sm px-4 py-2 h-auto">
-                      Read More
-                      <ArrowRight className="w-4 h-4 ml-1" />
-                    </Button>
+                    <Link to={`/blog/${post.id}`}>
+                      <Button className="bg-[#F4ECD8]/10 text-[#F4ECD8] hover:bg-[#F4ECD8]/20 border border-[#F4ECD8]/20 hover:border-[#F4ECD8]/40 text-sm px-4 py-2 h-auto">
+                        Read More
+                        <ArrowRight className="w-4 h-4 ml-1" />
+                      </Button>
+                    </Link>
                   </div>
                 </CardContent>
               </Card>
