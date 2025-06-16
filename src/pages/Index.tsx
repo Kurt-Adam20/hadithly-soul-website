@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -6,10 +5,8 @@ import { Link } from "react-router-dom";
 import { Smartphone, Bell, Palette, Globe, Share2, Shield, Apple, CheckCircle } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-[#2D3A4A] text-white">
+  return <div className="min-h-screen bg-[#2D3A4A] text-white">
       <Header />
       
       {/* Hero Section */}
@@ -62,22 +59,7 @@ const Index = () => {
           
           {/* App Preview */}
           <div className="max-w-sm mx-auto">
-            <div className="bg-gradient-to-b from-[#F4ECD8]/10 to-transparent p-8 rounded-3xl backdrop-blur-sm">
-              <div className="bg-[#1A2332] rounded-3xl p-8 shadow-2xl border border-[#F4ECD8]/10">
-                <div className="bg-[#2D3A4A] rounded-2xl p-6 mb-4">
-                  <div className="text-[#F4ECD8] text-sm mb-3 text-center">Today's Hadith</div>
-                  <div className="text-white text-center text-sm leading-relaxed">
-                    "The believer is not one who eats his fill while his neighbor goes hungry."
-                  </div>
-                  <div className="text-gray-400 text-xs text-center mt-3">- Prophet Muhammad (PBUH)</div>
-                </div>
-                <div className="flex justify-center gap-2">
-                  <div className="w-2 h-2 bg-[#F4ECD8] rounded-full"></div>
-                  <div className="w-2 h-2 bg-[#F4ECD8]/30 rounded-full"></div>
-                  <div className="w-2 h-2 bg-[#F4ECD8]/30 rounded-full"></div>
-                </div>
-              </div>
-            </div>
+            
           </div>
         </div>
       </section>
@@ -221,8 +203,6 @@ const Index = () => {
       </section>
 
       <Footer />
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
