@@ -30,6 +30,9 @@ const Footer = () => {
               <Link to="/" className="block text-gray-400 hover:text-[#F4ECD8] transition-colors">
                 Home
               </Link>
+              <Link to="/blog" className="block text-gray-400 hover:text-[#F4ECD8] transition-colors">
+                Blog
+              </Link>
               <Link to="/privacy" className="block text-gray-400 hover:text-[#F4ECD8] transition-colors">
                 Privacy Policy
               </Link>
