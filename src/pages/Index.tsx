@@ -2,9 +2,10 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Link } from "react-router-dom";
-import { Smartphone, Bell, Palette, Globe, Share2, Shield, Apple, CheckCircle } from "lucide-react";
+import { Smartphone, Bell, Palette, Globe, Share2, Shield, Apple, CheckCircle, Star, Quote } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+
 const Index = () => {
   return <div className="min-h-screen bg-[#2D3A4A] text-white">
       <Header />
@@ -146,6 +147,91 @@ const Index = () => {
                 <p className="text-gray-300 leading-relaxed font-light">
                   All content available without internet connection. Perfect for prayer times, travel, or quiet moments.
                 </p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* User Reviews Section */}
+      <section className="py-24 px-4 bg-[#1A2332]/20">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-20">
+            <h2 className="text-5xl md:text-6xl font-bold mb-6 tracking-tight">
+              What Our <span className="text-[#F4ECD8]">Users Say</span>
+            </h2>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto font-light">
+              Join thousands of believers who have transformed their daily routine with authentic Islamic wisdom
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-3 gap-8">
+            <Card className="bg-[#1A2332]/50 border-[#F4ECD8]/10 backdrop-blur-sm">
+              <CardContent className="p-8">
+                <div className="flex items-center mb-4">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="w-5 h-5 text-[#F4ECD8] fill-current" />
+                  ))}
+                </div>
+                <Quote className="w-8 h-8 text-[#F4ECD8] mb-4" />
+                <p className="text-gray-300 mb-6 leading-relaxed">
+                  "This app has truly changed my daily routine. Starting each day with authentic hadiths brings so much peace and guidance to my life."
+                </p>
+                <div className="flex items-center">
+                  <div className="w-10 h-10 bg-[#F4ECD8]/20 rounded-full flex items-center justify-center mr-3">
+                    <span className="text-[#F4ECD8] font-semibold">A</span>
+                  </div>
+                  <div>
+                    <p className="text-white font-medium">Amina K.</p>
+                    <p className="text-gray-400 text-sm">Toronto, Canada</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-[#1A2332]/50 border-[#F4ECD8]/10 backdrop-blur-sm">
+              <CardContent className="p-8">
+                <div className="flex items-center mb-4">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="w-5 h-5 text-[#F4ECD8] fill-current" />
+                  ))}
+                </div>
+                <Quote className="w-8 h-8 text-[#F4ECD8] mb-4" />
+                <p className="text-gray-300 mb-6 leading-relaxed">
+                  "Beautiful design and authentic content. I love how it works offline and respects my privacy. Truly a blessing."
+                </p>
+                <div className="flex items-center">
+                  <div className="w-10 h-10 bg-[#F4ECD8]/20 rounded-full flex items-center justify-center mr-3">
+                    <span className="text-[#F4ECD8] font-semibold">M</span>
+                  </div>
+                  <div>
+                    <p className="text-white font-medium">Mohammed R.</p>
+                    <p className="text-gray-400 text-sm">London, UK</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-[#1A2332]/50 border-[#F4ECD8]/10 backdrop-blur-sm">
+              <CardContent className="p-8">
+                <div className="flex items-center mb-4">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="w-5 h-5 text-[#F4ECD8] fill-current" />
+                  ))}
+                </div>
+                <Quote className="w-8 h-8 text-[#F4ECD8] mb-4" />
+                <p className="text-gray-300 mb-6 leading-relaxed">
+                  "The daily notifications are perfectly timed. It's like having a gentle reminder to stay connected to my faith throughout the day."
+                </p>
+                <div className="flex items-center">
+                  <div className="w-10 h-10 bg-[#F4ECD8]/20 rounded-full flex items-center justify-center mr-3">
+                    <span className="text-[#F4ECD8] font-semibold">F</span>
+                  </div>
+                  <div>
+                    <p className="text-white font-medium">Fatima S.</p>
+                    <p className="text-gray-400 text-sm">Dubai, UAE</p>
+                  </div>
+                </div>
               </CardContent>
             </Card>
           </div>
