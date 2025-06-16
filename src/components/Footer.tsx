@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 import { Instagram } from "lucide-react";
 
@@ -13,7 +14,7 @@ const Footer = () => {
               to inspire and uplift your spiritual journey.
             </p>
             <a 
-              href="https://instagram.com/hadithly" 
+              href="https://www.instagram.com/hadithly.app/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-4 py-2 rounded-lg hover:from-purple-600 hover:to-pink-600 transition-all"
@@ -31,6 +32,15 @@ const Footer = () => {
               </Link>
               <Link to="/privacy" className="block text-gray-400 hover:text-[#F4ECD8] transition-colors">
                 Privacy Policy
+              </Link>
+              <Link to="/terms" className="block text-gray-400 hover:text-[#F4ECD8] transition-colors">
+                Terms of Use
+              </Link>
+              <Link to="/legal" className="block text-gray-400 hover:text-[#F4ECD8] transition-colors">
+                Legal Notice
+              </Link>
+              <Link to="/conditions" className="block text-gray-400 hover:text-[#F4ECD8] transition-colors">
+                General Conditions
               </Link>
               <Link to="/contact" className="block text-gray-400 hover:text-[#F4ECD8] transition-colors">
                 Contact
@@ -58,7 +68,7 @@ const Footer = () => {
           
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a 
-              href="https://instagram.com/hadithly" 
+              href="https://www.instagram.com/hadithly.app/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-[#F4ECD8] transition-colors"
