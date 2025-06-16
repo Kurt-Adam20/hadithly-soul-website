@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Link } from "react-router-dom";
-import { Smartphone, Bell, Palette, Globe, Share2, Shield, Download, Apple, CheckCircle } from "lucide-react";
+import { Smartphone, Bell, Palette, Globe, Share2, Shield, Apple, CheckCircle } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
@@ -16,7 +16,7 @@ const Index = () => {
       <section className="pt-32 pb-20 px-4">
         <div className="max-w-5xl mx-auto text-center">
           <Badge className="mb-8 bg-[#F4ECD8]/10 text-[#F4ECD8] border-[#F4ECD8]/20 text-sm px-4 py-2">
-            ✨ Daily Islamic Reminders
+            ✨ Available on iOS
           </Badge>
           
           <h1 className="text-6xl md:text-8xl font-bold mb-8 tracking-tight">
@@ -39,10 +39,9 @@ const Index = () => {
               <Apple className="w-6 h-6" />
               Download for iOS
             </Button>
-            <Button className="bg-transparent border-2 border-[#F4ECD8] text-[#F4ECD8] hover:bg-[#F4ECD8] hover:text-[#2D3A4A] text-lg px-10 py-7 rounded-2xl font-semibold flex items-center gap-3 transition-all hover:scale-105">
-              <Download className="w-6 h-6" />
-              Get on Google Play
-            </Button>
+            <p className="text-gray-400 text-sm self-center px-4">
+              Available exclusively on the App Store
+            </p>
           </div>
           
           {/* Stats */}
@@ -91,7 +90,7 @@ const Index = () => {
               Designed for <span className="text-[#F4ECD8]">Daily Inspiration</span>
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto font-light">
-              Every feature thoughtfully crafted to make Islamic learning a beautiful part of your daily life
+              Every feature thoughtfully crafted to make Islamic learning a beautiful part of your daily life on iOS
             </p>
           </div>
           
@@ -175,10 +174,10 @@ const Index = () => {
       <section className="py-24 px-4 bg-[#1A2332]/30">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-8 tracking-tight">
-            Trusted by Muslims <span className="text-[#F4ECD8]">Worldwide</span>
+            Trusted by iOS Users <span className="text-[#F4ECD8]">Worldwide</span>
           </h2>
           <p className="text-xl text-gray-300 mb-12 max-w-3xl mx-auto font-light">
-            Join a growing community of believers who start each day with authentic Islamic wisdom
+            Join a growing community of believers who start each day with authentic Islamic wisdom on their iPhone
           </p>
           
           <div className="grid md:grid-cols-3 gap-8 mb-12">
@@ -211,19 +210,13 @@ const Index = () => {
             Begin Your <span className="text-[#F4ECD8]">Journey</span>
           </h2>
           <p className="text-2xl text-gray-300 mb-12 max-w-3xl mx-auto font-light">
-            Start receiving daily Islamic wisdom that will inspire and uplift your soul
+            Start receiving daily Islamic wisdom that will inspire and uplift your soul on your iPhone
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-6 justify-center">
-            <Button className="bg-[#F4ECD8] text-[#2D3A4A] hover:bg-[#F4ECD8]/90 text-lg px-10 py-7 rounded-2xl font-semibold flex items-center gap-3 transition-all hover:scale-105">
-              <Apple className="w-6 h-6" />
-              Download for iOS
-            </Button>
-            <Button className="bg-transparent border-2 border-[#F4ECD8] text-[#F4ECD8] hover:bg-[#F4ECD8] hover:text-[#2D3A4A] text-lg px-10 py-7 rounded-2xl font-semibold flex items-center gap-3 transition-all hover:scale-105">
-              <Download className="w-6 h-6" />
-              Get on Google Play
-            </Button>
-          </div>
+          <Button className="bg-[#F4ECD8] text-[#2D3A4A] hover:bg-[#F4ECD8]/90 text-lg px-12 py-8 rounded-2xl font-semibold flex items-center gap-3 transition-all hover:scale-105 mx-auto">
+            <Apple className="w-7 h-7" />
+            Download for iOS
+          </Button>
         </div>
       </section>
 
