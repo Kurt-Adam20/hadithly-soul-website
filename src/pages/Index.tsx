@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -39,6 +40,13 @@ const Index = () => {
             </Button>
             <p className="text-gray-400 text-sm self-center px-4">
               Available exclusively on the App Store
+            </p>
+          </div>
+          
+          {/* Disclaimer */}
+          <div className="mb-16 px-4">
+            <p className="text-sm text-gray-400 max-w-2xl mx-auto leading-relaxed">
+              This app is for spiritual reflection and daily reminders, not for medical or psychological advice.
             </p>
           </div>
           
