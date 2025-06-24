@@ -22,7 +22,7 @@ const Privacy = () => {
           <Card className="bg-[#1A2332] border-[#F4ECD8]/20 mb-8">
             <CardContent className="text-gray-300 space-y-4 pt-6">
               <p className="leading-relaxed">
-                Hadithly ("<strong>Developer</strong>") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use <strong>Hadithly - Daily Islamic reminders</strong> ("<strong>App</strong>"). By using the App, you agree to the practices described in this policy. If you do not agree with this Privacy Policy, please do not use the App.
+                Hadithly ("<strong>Developer</strong>", "<strong>we</strong>", "<strong>us</strong>", or "<strong>our</strong>") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use Hadithly – Daily Islamic Reminders ("<strong>App</strong>"). By using the App, you agree to the practices described in this policy. If you do not agree with this Privacy Policy, please do not use the App.
               </p>
               <p className="text-sm text-gray-400">
                 Effective Date: 4th January, 2024
@@ -34,38 +34,34 @@ const Privacy = () => {
             <Card className="bg-[#1A2332] border-[#F4ECD8]/20">
               <CardHeader>
                 <CardTitle className="text-[#F4ECD8] flex items-center gap-2">
-                  📄 Information We Collect
+                  📄 1. Information We Collect
                 </CardTitle>
               </CardHeader>
               <CardContent className="text-gray-300 space-y-4">
-                <p className="text-sm leading-relaxed">
-                  We may collect the following types of information when you use the App:
-                </p>
-                
                 <div className="space-y-4">
                   <div>
-                    <h4 className="text-[#F4ECD8] font-semibold mb-2">1. Personal Information</h4>
+                    <h4 className="text-[#F4ECD8] font-semibold mb-2">a. Personal Information</h4>
                     <p className="text-sm leading-relaxed">
                       We do not require you to provide personal information such as your name, email address, or contact details to use the App. However, if you contact us (e.g., via email), we may collect the personal information you provide.
                     </p>
                   </div>
                   
                   <div>
-                    <h4 className="text-[#F4ECD8] font-semibold mb-2">2. Non-Personal Information</h4>
+                    <h4 className="text-[#F4ECD8] font-semibold mb-2">b. Non-Personal Information</h4>
                     <p className="text-sm leading-relaxed mb-2">
                       We may collect non-personal data automatically, such as:
                     </p>
                     <ul className="list-disc list-inside space-y-1 text-sm">
-                      <li>Device type, model, and operating system.</li>
-                      <li>Usage statistics (e.g., time spent on the App).</li>
-                      <li>App performance data, including crash reports and errors.</li>
+                      <li>Device type, model, and operating system</li>
+                      <li>Usage statistics (e.g., time spent on the App)</li>
+                      <li>App performance data, including crash reports and errors</li>
                     </ul>
                   </div>
                   
                   <div>
-                    <h4 className="text-[#F4ECD8] font-semibold mb-2">3. Cookies and Tracking Technologies</h4>
+                    <h4 className="text-[#F4ECD8] font-semibold mb-2">c. Cookies and Tracking Technologies</h4>
                     <p className="text-sm leading-relaxed">
-                      The App does not currently use cookies or other tracking technologies. However, third-party services integrated into the App (if any) may collect such data.
+                      The App does not currently use cookies or similar tracking technologies. However, third-party services integrated into the App (if any) may collect such data according to their own privacy policies.
                     </p>
                   </div>
                 </div>
@@ -75,36 +71,36 @@ const Privacy = () => {
             <Card className="bg-[#1A2332] border-[#F4ECD8]/20">
               <CardHeader>
                 <CardTitle className="text-[#F4ECD8] flex items-center gap-2">
-                  📚 How We Use Your Information
+                  📚 2. How We Use Your Information
                 </CardTitle>
               </CardHeader>
               <CardContent className="text-gray-300 space-y-3">
                 <p className="text-sm leading-relaxed mb-3">
                   We use the information we collect for purposes such as:
                 </p>
-                <ol className="list-decimal list-inside space-y-2 text-sm">
-                  <li>Ensuring the App functions properly.</li>
-                  <li>Improving the App's design, features, and performance.</li>
-                  <li>Responding to your inquiries or feedback.</li>
-                </ol>
+                <ul className="list-disc list-inside space-y-2 text-sm">
+                  <li>Ensuring the App functions properly</li>
+                  <li>Improving the App's design, features, and performance</li>
+                  <li>Responding to your inquiries or feedback</li>
+                </ul>
               </CardContent>
             </Card>
 
             <Card className="bg-[#1A2332] border-[#F4ECD8]/20">
               <CardHeader>
                 <CardTitle className="text-[#F4ECD8] flex items-center gap-2">
-                  🔄 Sharing Your Information
+                  🔄 3. Sharing Your Information
                 </CardTitle>
               </CardHeader>
               <CardContent className="text-gray-300 space-y-3">
                 <p className="text-sm leading-relaxed">
-                  We do not sell, trade, or rent your personal information. However, we may share non-personal information with third parties, such as analytics providers, to improve the App.
+                  We do not sell, trade, or rent your personal information. We may share non-personal information with third parties, such as analytics providers, to improve the App.
                 </p>
                 
                 <div>
                   <h4 className="text-[#F4ECD8] font-semibold mb-2">Third-Party Services</h4>
                   <p className="text-sm leading-relaxed">
-                    The App may use third-party tools or services for analytics or performance monitoring. These third parties may collect information as governed by their own privacy policies.
+                    The App may use third-party tools or services for analytics or performance monitoring. These third parties may collect information as governed by their own privacy policies. If you would like to know which third-party services are used, please contact us.
                   </p>
                 </div>
               </CardContent>
@@ -113,7 +109,7 @@ const Privacy = () => {
             <Card className="bg-[#1A2332] border-[#F4ECD8]/20">
               <CardHeader>
                 <CardTitle className="text-[#F4ECD8] flex items-center gap-2">
-                  🛡️ Data Security
+                  🛡️ 4. Data Security
                 </CardTitle>
               </CardHeader>
               <CardContent className="text-gray-300">
@@ -126,7 +122,7 @@ const Privacy = () => {
             <Card className="bg-[#1A2332] border-[#F4ECD8]/20">
               <CardHeader>
                 <CardTitle className="text-[#F4ECD8] flex items-center gap-2">
-                  📅 Retention of Data
+                  📅 5. Data Retention
                 </CardTitle>
               </CardHeader>
               <CardContent className="text-gray-300">
@@ -139,12 +135,12 @@ const Privacy = () => {
             <Card className="bg-[#1A2332] border-[#F4ECD8]/20">
               <CardHeader>
                 <CardTitle className="text-[#F4ECD8] flex items-center gap-2">
-                  🌐 International Users
+                  🌐 6. International Users
                 </CardTitle>
               </CardHeader>
               <CardContent className="text-gray-300">
                 <p className="text-sm leading-relaxed">
-                  If you access the App outside Belgium, note that your information may be transferred to and processed in Belgium, where privacy laws may differ from those in your country.
+                  If you access the App outside Belgium, your information may be transferred to and processed in Belgium, where privacy laws may differ from those in your country.
                 </p>
               </CardContent>
             </Card>
@@ -152,24 +148,49 @@ const Privacy = () => {
             <Card className="bg-[#1A2332] border-[#F4ECD8]/20">
               <CardHeader>
                 <CardTitle className="text-[#F4ECD8] flex items-center gap-2">
-                  ⚖️ Legal Basis for Processing (for GDPR Users)
+                  ⚖️ 7. Legal Basis for Processing (for EEA Users)
                 </CardTitle>
               </CardHeader>
               <CardContent className="text-gray-300">
                 <p className="text-sm leading-relaxed mb-3">
                   If you are in the European Economic Area (EEA), we process your data based on the following legal bases:
                 </p>
-                <ol className="list-decimal list-inside space-y-2 text-sm">
-                  <li><strong>Consent:</strong> When you agree to provide information (e.g., by contacting us).</li>
-                  <li><strong>Legitimate Interests:</strong> To ensure the functionality and improvement of the App.</li>
-                </ol>
+                <ul className="list-disc list-inside space-y-2 text-sm">
+                  <li><strong>Consent:</strong> When you agree to provide information (e.g., by contacting us)</li>
+                  <li><strong>Legitimate Interests:</strong> To ensure the functionality and improvement of the App</li>
+                </ul>
               </CardContent>
             </Card>
 
             <Card className="bg-[#1A2332] border-[#F4ECD8]/20">
               <CardHeader>
                 <CardTitle className="text-[#F4ECD8] flex items-center gap-2">
-                  🔄 Changes to This Privacy Policy
+                  👤 8. Your Rights (for EEA and UK Users)
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="text-gray-300">
+                <p className="text-sm leading-relaxed mb-3">
+                  You have the right to:
+                </p>
+                <ul className="list-disc list-inside space-y-1 text-sm mb-3">
+                  <li>Access the personal data we hold about you</li>
+                  <li>Request correction of inaccurate data</li>
+                  <li>Request deletion of your data ("right to be forgotten")</li>
+                  <li>Object to or restrict the processing of your data</li>
+                  <li>Request data portability (to receive your data in a commonly used format)</li>
+                  <li>Withdraw your consent at any time (where processing is based on consent)</li>
+                  <li>Lodge a complaint with your local data protection authority</li>
+                </ul>
+                <p className="text-sm leading-relaxed">
+                  To exercise any of these rights, please contact us at support@hadithly.app.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-[#1A2332] border-[#F4ECD8]/20">
+              <CardHeader>
+                <CardTitle className="text-[#F4ECD8] flex items-center gap-2">
+                  🔄 9. Changes to This Privacy Policy
                 </CardTitle>
               </CardHeader>
               <CardContent className="text-gray-300">
@@ -182,7 +203,7 @@ const Privacy = () => {
             <Card className="bg-[#1A2332] border-[#F4ECD8]/20">
               <CardHeader>
                 <CardTitle className="text-[#F4ECD8] flex items-center gap-2">
-                  📩 Contact Information
+                  📩 10. Contact Information
                 </CardTitle>
               </CardHeader>
               <CardContent className="text-gray-300">
