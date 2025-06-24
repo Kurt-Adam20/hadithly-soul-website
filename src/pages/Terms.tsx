@@ -122,7 +122,7 @@ const Terms = () => {
               </CardHeader>
               <CardContent className="text-gray-300">
                 <p className="text-sm leading-relaxed">
-                  These Terms shall be governed by and construed in accordance with the laws of Nigeria, without regard to its conflict of laws principles.
+                  These Terms shall be governed by and construed in accordance with the laws of Belgium, without regard to its conflict of laws principles.
                 </p>
               </CardContent>
             </Card>
