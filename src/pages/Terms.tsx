@@ -12,22 +12,17 @@ const Terms = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Privacy Policy & <span className="text-[#F4ECD8]">Terms of Use</span>
+              <span className="text-[#F4ECD8]">Hadithly</span> Terms and Conditions
             </h1>
             <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-              Your privacy and our terms of service for the Hadithly application.
+              Terms and conditions governing your use of the Hadithly application.
             </p>
           </div>
 
           <Card className="bg-[#1A2332] border-[#F4ECD8]/20 mb-8">
-            <CardHeader>
-              <CardTitle className="text-[#F4ECD8] text-2xl">Introduction</CardTitle>
-            </CardHeader>
-            <CardContent className="text-gray-300 space-y-4">
+            <CardContent className="text-gray-300 space-y-4 pt-6">
               <p className="leading-relaxed">
-                Welcome to Hadithly. This document serves as our combined Privacy Policy and Terms of Use. 
-                We are committed to protecting your privacy and providing a transparent understanding of how you can use our services. 
-                By using our app, you agree to the collection and use of information in accordance with this policy and agree to be bound by our terms.
+                These Terms and Conditions ("<strong>Terms</strong>") govern your use of Hadithly - Daily Islamic reminders ("<strong>App</strong>"), developed by Hadithly ("<strong>Developer</strong>"). By downloading, installing, or using the App, you agree to be bound by these Terms. If you do not agree to these Terms, do not use the App.
               </p>
               <p className="text-sm text-gray-400">
                 Last Updated: December 2024
@@ -35,175 +30,136 @@ const Terms = () => {
             </CardContent>
           </Card>
 
-          {/* Privacy Policy Section */}
-          <div className="mb-12">
-            <h2 className="text-3xl font-bold text-[#F4ECD8] mb-8">Privacy Policy</h2>
-            
-            <div className="grid gap-6">
-              <Card className="bg-[#1A2332] border-[#F4ECD8]/20">
-                <CardHeader>
-                  <CardTitle className="text-[#F4ECD8]">Information We Collect</CardTitle>
-                </CardHeader>
-                <CardContent className="text-gray-300 space-y-4">
-                  <div>
-                    <h4 className="font-semibold text-white mb-2">Information You Provide Directly:</h4>
-                    <ul className="list-disc list-inside space-y-2 text-sm">
-                      <li><strong>Account Information (Optional):</strong> Name, age, and gender for personalization</li>
-                      <li><strong>Contextual Information:</strong> Selected moods, goals, and faith-related questions</li>
-                      <li><strong>User Content:</strong> Saved quotes, themes, and reminder settings</li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-white mb-2">Information Collected Automatically:</h4>
-                    <ul className="list-disc list-inside space-y-2 text-sm">
-                      <li><strong>Subscription Status:</strong> Tracked through Apple's In-App Purchase service</li>
-                      <li><strong>Usage and Technical Data (Anonymous):</strong> Device type, OS version, crash reports, and feature usage</li>
-                    </ul>
-                  </div>
-                </CardContent>
-              </Card>
+          <div className="grid gap-6">
+            <Card className="bg-[#1A2332] border-[#F4ECD8]/20">
+              <CardHeader>
+                <CardTitle className="text-[#F4ECD8] flex items-center gap-2">
+                  📚 Definitions
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="text-gray-300 space-y-3">
+                <div className="space-y-2">
+                  <p><strong>1.</strong> "<strong>User</strong>" refers to any person who downloads, installs, or uses the App.</p>
+                  <p><strong>2.</strong> "<strong>Content</strong>" refers to any text, images, video, audio, or other media available through the App.</p>
+                </div>
+              </CardContent>
+            </Card>
 
-              <Card className="bg-[#1A2332] border-[#F4ECD8]/20">
-                <CardHeader>
-                  <CardTitle className="text-[#F4ECD8]">How We Use Your Information</CardTitle>
-                </CardHeader>
-                <CardContent className="text-gray-300">
-                  <ul className="list-disc list-inside space-y-2 text-sm">
-                    <li>To operate and maintain the Hadithly app</li>
-                    <li>To personalize your content and experience</li>
-                    <li>To provide core app functionalities like reminders and saved quotes</li>
-                    <li>To process your subscription and provide premium features</li>
-                    <li>To monitor and analyze usage to improve the app</li>
-                    <li>To communicate with you, if necessary</li>
-                  </ul>
-                </CardContent>
-              </Card>
+            <Card className="bg-[#1A2332] border-[#F4ECD8]/20">
+              <CardHeader>
+                <CardTitle className="text-[#F4ECD8] flex items-center gap-2">
+                  🎁 License
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="text-gray-300">
+                <p className="text-sm leading-relaxed">
+                  Subject to your compliance with these Terms, the Developer grants you a limited, non-exclusive, non-transferable, revocable license to download, install, and use the App for your personal, non-commercial purposes.
+                </p>
+              </CardContent>
+            </Card>
 
-              <Card className="bg-[#1A2332] border-[#F4ECD8]/20">
-                <CardHeader>
-                  <CardTitle className="text-[#F4ECD8]">How We Share Your Information</CardTitle>
-                </CardHeader>
-                <CardContent className="text-gray-300 space-y-3">
-                  <p className="font-semibold">Your privacy is paramount.</p>
-                  <ul className="list-disc list-inside space-y-2 text-sm">
-                    <li><strong>No Sale of Data:</strong> We do not sell, trade, or rent your personal identification information to others</li>
-                    <li><strong>Service Providers:</strong> We may use trusted third-party services for crash analytics or subscription management</li>
-                    <li><strong>Legal Compliance:</strong> We may disclose your information if required to do so by law</li>
-                  </ul>
-                </CardContent>
-              </Card>
+            <Card className="bg-[#1A2332] border-[#F4ECD8]/20">
+              <CardHeader>
+                <CardTitle className="text-[#F4ECD8] flex items-center gap-2">
+                  🔐 User Conduct
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="text-gray-300">
+                <p className="text-sm mb-3">You agree not to:</p>
+                <ol className="list-decimal list-inside space-y-2 text-sm">
+                  <li>Use the App for any unlawful or fraudulent purposes.</li>
+                  <li>Copy, modify, adapt, or create derivative works of the App or its Content.</li>
+                  <li>Interfere with, disrupt, or overload the App or its underlying infrastructure.</li>
+                  <li>Attempt to gain unauthorized access to the App or any associated systems or networks.</li>
+                </ol>
+              </CardContent>
+            </Card>
 
-              <Card className="bg-[#1A2332] border-[#F4ECD8]/20">
-                <CardHeader>
-                  <CardTitle className="text-[#F4ECD8]">Data Security & Retention</CardTitle>
-                </CardHeader>
-                <CardContent className="text-gray-300 space-y-3">
-                  <p className="text-sm leading-relaxed">
-                    We implement reasonable security measures to protect your data from unauthorized access. 
-                    We retain your personal data for as long as you maintain an account and will delete your information 
-                    within a reasonable timeframe after you delete your account.
-                  </p>
-                </CardContent>
-              </Card>
+            <Card className="bg-[#1A2332] border-[#F4ECD8]/20">
+              <CardHeader>
+                <CardTitle className="text-[#F4ECD8] flex items-center gap-2">
+                  💾 Intellectual Property Rights
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="text-gray-300">
+                <p className="text-sm leading-relaxed">
+                  All rights, title, and interest in and to the App, including its Content and any associated intellectual property rights, are the exclusive property of the Developer and its licensors. You may not reproduce, distribute, or create derivative works of the App or its Content without the express written permission of the Developer.
+                </p>
+              </CardContent>
+            </Card>
 
-              <Card className="bg-[#1A2332] border-[#F4ECD8]/20">
-                <CardHeader>
-                  <CardTitle className="text-[#F4ECD8]">Your Rights</CardTitle>
-                </CardHeader>
-                <CardContent className="text-gray-300">
-                  <p className="text-sm leading-relaxed">
-                    You have the right to access, update, or request deletion of your personal information 
-                    through the settings in our app or by contacting us directly.
-                  </p>
-                </CardContent>
-              </Card>
-            </div>
+            <Card className="bg-[#1A2332] border-[#F4ECD8]/20">
+              <CardHeader>
+                <CardTitle className="text-[#F4ECD8] flex items-center gap-2">
+                  🛡️ Disclaimer
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="text-gray-300">
+                <p className="text-sm leading-relaxed">
+                  THE APP IS PROVIDED "AS IS" AND "AS AVAILABLE," WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. THE DEVELOPER DOES NOT WARRANT THAT THE APP WILL BE UNINTERRUPTED, ERROR-FREE, OR COMPLETELY SECURE.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-[#1A2332] border-[#F4ECD8]/20">
+              <CardHeader>
+                <CardTitle className="text-[#F4ECD8] flex items-center gap-2">
+                  ⚖️ Limitation of Liability
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="text-gray-300">
+                <p className="text-sm leading-relaxed">
+                  TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE DEVELOPER SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL, OR EXEMPLARY DAMAGES ARISING OUT OF OR IN CONNECTION WITH THE USE OF THE APP, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-[#1A2332] border-[#F4ECD8]/20">
+              <CardHeader>
+                <CardTitle className="text-[#F4ECD8] flex items-center gap-2">
+                  🌐 Governing Law
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="text-gray-300">
+                <p className="text-sm leading-relaxed">
+                  These Terms shall be governed by and construed in accordance with the laws of Nigeria, without regard to its conflict of laws principles.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-[#1A2332] border-[#F4ECD8]/20">
+              <CardHeader>
+                <CardTitle className="text-[#F4ECD8] flex items-center gap-2">
+                  🔄 Modifications
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="text-gray-300">
+                <p className="text-sm leading-relaxed">
+                  The Developer reserves the right to modify these Terms at any time, in its sole discretion. Your continued use of the App following any modification constitutes your acceptance of the modified Terms.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-[#1A2332] border-[#F4ECD8]/20">
+              <CardHeader>
+                <CardTitle className="text-[#F4ECD8] flex items-center gap-2">
+                  📩 Contact Information
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="text-gray-300">
+                <p className="text-sm leading-relaxed mb-3">
+                  If you have any questions or concerns about these Terms or the App, please contact the Developer at:
+                </p>
+                <p className="text-sm">
+                  <strong>Email:</strong> support@hadithly.app
+                </p>
+                <p className="text-xs text-gray-400 mt-4">
+                  This Mobile App Terms and Conditions template has been customized for Hadithly. 
+                  Remember to consult with legal counsel if necessary.
+                </p>
+              </CardContent>
+            </Card>
           </div>
-
-          {/* Terms of Use Section */}
-          <div>
-            <h2 className="text-3xl font-bold text-[#F4ECD8] mb-8">Terms of Use</h2>
-            
-            <div className="grid gap-6">
-              <Card className="bg-[#1A2332] border-[#F4ECD8]/20">
-                <CardHeader>
-                  <CardTitle className="text-[#F4ECD8]">Acceptance of Terms</CardTitle>
-                </CardHeader>
-                <CardContent className="text-gray-300">
-                  <p className="text-sm leading-relaxed">
-                    By accessing or using our app, you agree to be bound by these Terms. 
-                    If you disagree with any part of the terms, then you do not have permission to access the service.
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card className="bg-[#1A2332] border-[#F4ECD8]/20">
-                <CardHeader>
-                  <CardTitle className="text-[#F4ECD8]">Use of the App</CardTitle>
-                </CardHeader>
-                <CardContent className="text-gray-300">
-                  <p className="text-sm leading-relaxed">
-                    The app is intended for your personal, non-commercial use for spiritual reflection. 
-                    The content provided is for informational purposes and should not be considered a substitute 
-                    for professional theological, medical, or psychological advice.
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card className="bg-[#1A2332] border-[#F4ECD8]/20">
-                <CardHeader>
-                  <CardTitle className="text-[#F4ECD8]">Premium Subscriptions</CardTitle>
-                </CardHeader>
-                <CardContent className="text-gray-300 space-y-3">
-                  <p className="text-sm">Certain features of the app are only available through a paid subscription.</p>
-                  <ul className="list-disc list-inside space-y-2 text-sm">
-                    <li><strong>Billing:</strong> All payments are processed through Apple's In-App Purchase platform</li>
-                    <li><strong>Auto-Renewal:</strong> Subscriptions automatically renew unless canceled 24 hours before the current period ends</li>
-                  </ul>
-                </CardContent>
-              </Card>
-
-              <Card className="bg-[#1A2332] border-[#F4ECD8]/20">
-                <CardHeader>
-                  <CardTitle className="text-[#F4ECD8]">User Conduct & Intellectual Property</CardTitle>
-                </CardHeader>
-                <CardContent className="text-gray-300 space-y-3">
-                  <p className="text-sm leading-relaxed">
-                    You agree not to use the app in any way that is unlawful, or harms us or any other person or entity. 
-                    The app and its original content, features, and functionality are and will remain our exclusive property.
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card className="bg-[#1A2332] border-[#F4ECD8]/20">
-                <CardHeader>
-                  <CardTitle className="text-[#F4ECD8]">Limitation of Liability</CardTitle>
-                </CardHeader>
-                <CardContent className="text-gray-300">
-                  <p className="text-sm leading-relaxed">
-                    The app is provided on an "AS IS" and "AS AVAILABLE" basis. We do not warrant that the app's 
-                    functioning will be uninterrupted or error-free. In no event shall Hadithly be liable for any 
-                    direct, indirect, incidental, or consequential damages.
-                  </p>
-                </CardContent>
-              </Card>
-            </div>
-          </div>
-
-          {/* Contact Information */}
-          <Card className="bg-[#1A2332] border-[#F4ECD8]/20 mt-8">
-            <CardHeader>
-              <CardTitle className="text-[#F4ECD8]">Contact Us</CardTitle>
-            </CardHeader>
-            <CardContent className="text-gray-300">
-              <p className="text-sm leading-relaxed mb-3">
-                If you have any questions about this Privacy Policy or Terms of Use, please contact us at:
-              </p>
-              <p className="text-sm">
-                <strong>Email:</strong> support@hadithly.app
-              </p>
-            </CardContent>
-          </Card>
         </div>
       </div>
 
