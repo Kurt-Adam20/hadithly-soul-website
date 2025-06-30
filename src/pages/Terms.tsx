@@ -12,17 +12,17 @@ const Terms = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              <span className="text-[#F4ECD8]">Hadithly</span> Terms and Conditions
+              <span className="text-[#F4ECD8]">Hadithly</span> Terms of Use
             </h1>
             <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-              Terms and conditions governing your use of the Hadithly application.
+              Terms of use governing your use of the Hadithly application.
             </p>
           </div>
 
           <Card className="bg-[#1A2332] border-[#F4ECD8]/20 mb-8">
             <CardContent className="text-gray-300 space-y-4 pt-6">
               <p className="leading-relaxed">
-                These Terms and Conditions ("<strong>Terms</strong>") govern your use of Hadithly - Daily Islamic reminders ("<strong>App</strong>"), developed by Hadithly ("<strong>Developer</strong>"). By downloading, installing, or using the App, you agree to be bound by these Terms. If you do not agree to these Terms, do not use the App.
+                These Terms of Use ("<strong>Terms</strong>") govern your use of Hadithly - Daily Islamic reminders ("<strong>App</strong>"), developed by Hadithly ("<strong>Developer</strong>"). By downloading, installing, or using the App, you agree to be bound by these Terms. If you do not agree to these Terms, do not use the App.
               </p>
               <p className="text-sm text-gray-400">
                 Last Updated: December 2024
@@ -154,7 +154,7 @@ const Terms = () => {
                   <strong>Email:</strong> support@hadithly.app
                 </p>
                 <p className="text-xs text-gray-400 mt-4">
-                  This Mobile App Terms and Conditions template has been customized for Hadithly. 
+                  This Mobile App Terms of Use template has been customized for Hadithly. 
                   Remember to consult with legal counsel if necessary.
                 </p>
               </CardContent>
