@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
@@ -25,9 +24,15 @@ const Header = () => {
           </Link>
         </nav>
 
-        <Button className="bg-[#F4ECD8] text-[#2D3A4A] hover:bg-[#F4ECD8]/90 rounded-2xl px-8 py-6 font-semibold transition-all hover:scale-105">
-          Download App
-        </Button>
+        <a
+          href="https://apps.apple.com/be/app/hadithly-islamic-quotes/id6747674034"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button className="bg-[#F4ECD8] text-[#2D3A4A] hover:bg-[#F4ECD8]/90 rounded-2xl px-8 py-6 font-semibold transition-all hover:scale-105">
+            Download App
+          </Button>
+        </a>
       </div>
     </header>
   );
